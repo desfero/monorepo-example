@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "lerna run test",
+    "test:packages": "lerna run test --scope \"+(core|ui)\"",
+    "prepare": "lerna run prepare",
+    "publish-by-lerna": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^2.8.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ]
+}

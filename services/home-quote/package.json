@@ -1,0 +1,16 @@
+{
+  "name": "home-quote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "core": "^1.0.0",
+    "ui": "^1.0.0"
+  }
+}
