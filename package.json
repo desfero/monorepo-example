@@ -10,7 +10,6 @@
     "lerna": "^2.8.0"
   },
   "workspaces": [
-    "packages/*",
-    "services/*"
+    "packages/*"
   ]
 }

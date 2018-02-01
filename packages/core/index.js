@@ -1,3 +1,5 @@
-module.exports = function() {
-    console.log('core index');
-};
+function add(a, b) {
+    return a + b;
+}
+
+module.exports = { add };

@@ -1,5 +1,6 @@
 ## Example app
-Contains two packages (`core` and `ui`) and one service `home-quote`.
+
+Contains two packages (`core` and `app`).
 
 `yarn install` - will install all dependencies for each project and link dependent project between each other
 `yarn test` - will run all tests for each package and service (console.log inside `test.js`)
@@ -8,9 +9,6 @@ Contains two packages (`core` and `ui`) and one service `home-quote`.
 ## Directory Structure
 
 Put each package under the `packages` directory.
-Put each service under the 'services' directory.
-Service is something that end user use.
-
 
 ## Tools:
 
@@ -72,7 +70,7 @@ Set `npmClient` `"yarn"` and turn `useWorkspaces` on.
 Exec `yarn install`(or `lerna bootstrap`). After successful running, all dependency packages are downloaded under the repository root `node_modules` directory.
 
 ### Dependencies between packages
-In this example, the `home-quote` service depends on two packages, `core` and `ui`. So to execute (or test) `home-quote`, `core` and `ui` packages should be installed.
+In this example, the `home-quote` service depends on two packages, `core` and `app`. So to execute (or test) `home-quote`, `core` and `app` packages should be installed.
 `yarn` solve it. This command create sim-link of each packages into the top-level `node_modules` dir.
 
 ## Pros and cons:
