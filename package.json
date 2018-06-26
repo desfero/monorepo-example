@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "test:packages": "lerna run test --scope \"+(core|ui)\"",
+    "test:packages": "lerna run test --scope \"+(core|app)\"",
     "prepare": "lerna run prepare",
     "publish-by-lerna": "lerna publish"
   },
